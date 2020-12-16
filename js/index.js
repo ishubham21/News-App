@@ -96,13 +96,13 @@ function setCountry(country) {
     var countryVal = 'nil'
     switch (country) {
         case 'us':
-            countryVal = `http://newsapi.org/v2/top-headlines?country=us&apiKey=cb1e0df2ab854320b6090d4947f1cbf2`
+            countryVal = `https://newsapi.org/v2/top-headlines?country=us&apiKey=cb1e0df2ab854320b6090d4947f1cbf2`
             break;
         case 'ind':
-            countryVal = `http://newsapi.org/v2/top-headlines?country=in&apiKey=cb1e0df2ab854320b6090d4947f1cbf2`
+            countryVal = `https://newsapi.org/v2/top-headlines?country=in&apiKey=cb1e0df2ab854320b6090d4947f1cbf2`
             break;
         case 'de':
-            countryVal = `http://newsapi.org/v2/top-headlines?country=de&apiKey=cb1e0df2ab854320b6090d4947f1cbf2`
+            countryVal = `https://newsapi.org/v2/top-headlines?country=de&apiKey=cb1e0df2ab854320b6090d4947f1cbf2`
             break;
         default:
             break;
