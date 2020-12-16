@@ -86,20 +86,39 @@ body, html {
           align-items: center;
 }
 
+.cont-selection h2 {
+  text-align: center;
+}
+
 .cont-selection select, .cont-selection button {
   display: block;
   padding: 10px 20px;
+  font-size: 16px;
 }
 
 .cont-selection select {
-  margin: 10px;
+  margin: 20px auto;
   border: 1px solid #222;
   outline: 0;
+  text-align: center;
+  color: #444;
+  line-height: 1.3;
+  border: 1px solid #aaa;
+  -webkit-box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+  width: 100%;
+  max-width: 100%;
+  border-radius: .5em;
+}
+
+.cont-selection select option {
+  padding: 10px 20px;
+  font-size: 15px;
 }
 
 .cont-selection button {
-  margin: 10px;
-  border-radius: 5px;
+  margin: 10px auto;
+  border-radius: 8px;
   border: 1px solid #007bff;
   background-color: #007bff;
   color: #fff;
