@@ -110,8 +110,8 @@ function setCountry(country) {
 
     fetch(countryVal)
         .then((response) => response.json())
-        .then((user) => {
-            printNews(user.articles)
+        .then((data) => {
+            printNews(data.articles)
         })
         .catch(err => {
             console.log('Error:', err);
