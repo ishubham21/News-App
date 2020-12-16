@@ -70,10 +70,8 @@ body, html {
 }
 
 .cont-selection {
+  display: none;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -129,5 +127,11 @@ body, html {
   background-color: #007bff;
   color: #fff;
   cursor: pointer;
+}
+
+.display-true {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
 }
 /*# sourceMappingURL=style.css.map */

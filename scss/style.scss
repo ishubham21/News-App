@@ -56,8 +56,8 @@ body, html{
 }
 
 .cont-selection{
+    display: none;
     height: 100vh;
-    display: flex;
     flex-direction: column;
     h2{
         text-align: center
@@ -98,4 +98,8 @@ body, html{
         color: #fff;
         cursor: pointer;
     }
+}
+
+.display-true{
+    display: flex!important;
 }

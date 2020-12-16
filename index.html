@@ -17,7 +17,7 @@
         <form>
             <select name="country" id="country">
                 <option value="nil">Countries</option>
-                <option value="in">India</option>
+                <option value="ind">India</option>
                 <option value="us">USA</option>
                 <option value="de">Germany</option>
             </select>
@@ -29,14 +29,7 @@
             <p class="news-content">News here</p>
         </div>
     </div>
+    <button class="chng-country">Country</button>
     <script src="js/index.js"></script>
 </body>
 </html>
-fetch('http://newsapi.org/v2/top-headlines?' + 'country=us&' + 'apiKey=cb1e0df2ab854320b6090d4947f1cbf2')
-.then((response) => response.json())
-.then((user) => {
-console.log(user.articles);
-})
-.catch(err => {
-console.log('Error:', err);
-})
