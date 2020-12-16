@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+//using downloaded google fonts
+@font-face{
+    font-family: "Dancing Script";
+    src: url("../fonts/DancingScript-VariableFont_wght.ttf") format("woff2");
+    font-weight: 700; 
+}
+@mixin center{
+    justify-content: center;
+    align-items: center;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+.loader{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: 100;
+    font-family: 'Dancing Script', cursive;
+    display: flex;
+    @include center();
+    h1{
+        font-size: 5em;
+        animation: fadeIn 0.5s;
+    }
+}
+@media (max-width: 760px){
+    .loader {
+        h1{
+            font-size: 2em!important;
+        }
+    }
+}
+.display-off-loader{
+    opacity: 0;
+    pointer-events: none;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.cont-selection{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    @include center();
+    select, button{
+        display: block;
+        padding: 10px 20px;
+    }
+    select{
+        margin: 10px;
+        border: 1px solid #222;
+        outline: 0;
+        
+        option{
+            
+        }
+    }
+    button{
+        margin: 10px;
+        
+        border-radius: 5px;
+        border: 1px solid #007bff;
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer;
+    }
+}

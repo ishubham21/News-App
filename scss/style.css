@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Dancing Script";
+  src: url("../fonts/DancingScript-VariableFont_wght.ttf") format("woff2");
+  font-weight: 700;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+.loader {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: 100;
+  font-family: 'Dancing Script', cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loader h1 {
+  font-size: 5em;
+  -webkit-animation: fadeIn 0.5s;
+          animation: fadeIn 0.5s;
+}
+
+@media (max-width: 760px) {
+  .loader h1 {
+    font-size: 2em !important;
+  }
+}
+
+.display-off-loader {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.cont-selection {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cont-selection select, .cont-selection button {
+  display: block;
+  padding: 10px 20px;
+}
+
+.cont-selection select {
+  margin: 10px;
+  border: 1px solid #222;
+  outline: 0;
+}
+
+.cont-selection button {
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
