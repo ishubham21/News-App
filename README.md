@@ -1,5 +1,3 @@
-# Hey there :wave:
-
 ## News-App
 
 This web-app is powered by newsapi.org/ which is an API developed to serve news w.r.t different queries.
@@ -22,4 +20,4 @@ All you've got to do is:
 
 4. Navigate over this folder and Hurry! We've made this work locally.
 
-<video src="https://github.com/ishubham21/News-App/workingApp.webm" alt="Working Video">
+Also, if you feel it's too much of work to do, you can just open up VLC and glance through demostration video to understand the working of the project.
