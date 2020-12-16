@@ -24,6 +24,19 @@
             <button type="submit">Explore News</button>
         </form>
     </div>
+    <div class="news">
+        <div class="news-card">
+            <p class="news-content">News here</p>
+        </div>
+    </div>
     <script src="js/index.js"></script>
 </body>
 </html>
+fetch('http://newsapi.org/v2/top-headlines?' + 'country=us&' + 'apiKey=cb1e0df2ab854320b6090d4947f1cbf2')
+.then((response) => response.json())
+.then((user) => {
+console.log(user.articles);
+})
+.catch(err => {
+console.log('Error:', err);
+})

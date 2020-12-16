@@ -90,6 +90,11 @@ body, html {
   text-align: center;
 }
 
+.cont-selection form {
+  width: 40%;
+  text-align-last: center;
+}
+
 .cont-selection select, .cont-selection button {
   display: block;
   padding: 10px 20px;
@@ -108,6 +113,7 @@ body, html {
           box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
   width: 100%;
   max-width: 100%;
+  background-color: #fff;
   border-radius: .5em;
 }
 
