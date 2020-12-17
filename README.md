@@ -22,4 +22,4 @@ All you've got to do is:
 
 Also, if you feel it's too much of work to do, you can just glance through demostration video to understand the working of the project.
 
-[![Video here](https://img.youtube.com/vi/VIDEO-ID/0.jpg)](https://youtu.be/VnAhqNb8tgA)
+[![Video here](https://img.youtube.com/vi/VnAhqNb8tgA/0.jpg)](https://youtu.be/VnAhqNb8tgA)
