@@ -20,4 +20,6 @@ All you've got to do is:
 
 4. Navigate over this folder and Hurry! We've made this work locally.
 
-Also, if you feel it's too much of work to do, you can just open up VLC and glance through demostration video to understand the working of the project.
+Also, if you feel it's too much of work to do, you can just glance through demostration video to understand the working of the project.
+
+[![Video here](https://img.youtube.com/vi/VIDEO-ID/0.jpg)](https://youtu.be/VnAhqNb8tgA)
